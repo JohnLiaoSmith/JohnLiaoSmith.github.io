@@ -2,19 +2,199 @@
     {
         "name": "Nasi Ayam Kok Hing",
         "pax": "4-8",
-        "distance": "1.6",
-        "location": "Taman Bukit Maluri"
+        "location": "Taman Bukit Maluri",
+        "distance": "1.6"
     },
     {
         "name": "Restoran Tanjung Satu",
-        "pax": "4",
-        "distance": "0.7",
-        "location": "Bandar Menjalara"
+        "pax": "4-∞",
+        "location": "Bandar Menjalara",
+        "distance": "0.7"
     },
     {
         "name": "Bann Koffi",
         "pax": "4-12",
-        "distance": "0.75",
-        "location": "Bandar Menjalara"
+        "location": "Bandar Menjalara",
+        "distance": "0.75"
+    },
+    {
+        "name": "Kaw Kaw Pak Kopi",
+        "pax": "TBD",
+        "location": "SS2",
+        "distance": "12.3"
+    },
+    {
+        "name": "Restoran Penang Corner",
+        "pax": "TBD",
+        "location": "Kepong",
+        "distance": "3.3"
+    },
+    {
+        "name": "Tuaa Mark Pan Mee House",
+        "pax": "2-6",
+        "location": "Bandar Menjalara",
+        "distance": "1.0"
+    },
+    {
+        "name": "培豐魯肉飯 Pey Feng Lo Bah Png",
+        "pax": "TBD",
+        "location": "Bandar Menjalara",
+        "distance": "1.0"
+    },
+    {
+        "name": "Subway @ Lotus Kepong",
+        "pax": "2-∞",
+        "location": "Bandar Menjalara",
+        "distance": "0.6"
+    },
+    {
+        "name": "STREAT Thai @ Lotus Kepong",
+        "pax": "2-8",
+        "location": "Bandar Menjalara",
+        "distance": "0.6"
+    },
+    {
+        "name": "Ah Cheng Laksa @ Lotus Kepong",
+        "pax": "2-4",
+        "location": "Bandar Menjalara",
+        "distance": "0.6"
+    },
+    {
+        "name": "Burger King @ Lotus Kepong",
+        "pax": "2-8",
+        "location": "Bandar Menjalara",
+        "distance": "0.6"
+    },
+    {
+        "name": "KFC @ Lotus Kepong",
+        "pax": "4-8",
+        "location": "Bandar Menjalara",
+        "distance": "0.6"
+    },
+    {
+        "name": "McDonald's",
+        "pax": "2-8",
+        "location": "Desa Park City",
+        "distance": "3.4"
+    },
+    {
+        "name": "McDonald's",
+        "pax": "2-8",
+        "location": "Desa Aman Puri",
+        "distance": "4.3"
+    },
+    {
+        "name": "Kopi Street",
+        "pax": "2-8",
+        "location": "Bandar Menjalara",
+        "distance": "0.19 (Walk)"
+    },
+    {
+        "name": "Restoran Eden Dim Sum City",
+        "pax": "TBD",
+        "location": "Bandar Menjalara",
+        "distance": "0.6"
+    },
+    {
+        "name": "Restoran Pak Thong",
+        "pax": "TBD",
+        "location": "Kepong",
+        "distance": "4.4"
+    },
+    {
+        "name": "Ah Muk Cha Chaan Teng",
+        "pax": "4-8",
+        "location": "Bandar Menjalara",
+        "distance": "1.1 / 0.5 (Walk)"
+    },
+    {
+        "name": "Ikar Fish Head Noodle",
+        "pax": "4-12",
+        "location": "Kepong",
+        "distance": "3.6"
+    },
+    {
+        "name": "Hot Bird",
+        "pax": "2-10",
+        "location": "Damansara Uptown",
+        "distance": "10.6"
+    },
+    {
+        "name": "The Fire Korean Restaurant @ Tropicana Gardens Mall",
+        "pax": "4-12",
+        "location": "Kota Damansara",
+        "distance": "11.1"
+    },
+    {
+        "name": "BananaBro",
+        "pax": "2-12",
+        "location": "Damansara Uptown",
+        "distance": "11.0"
+    },
+    {
+        "name": "BananaBro",
+        "pax": "2-12",
+        "location": "Kota Damansara",
+        "distance": "11.9"
+    },
+    {
+        "name": "Stuff'd @ 1 Utama",
+        "pax": "2-4",
+        "location": "Bandar Utama",
+        "distance": "9.6"
+    },
+    {
+        "name": "Rinse KL",
+        "pax": "2-4",
+        "location": "Bandar Sri Damansara",
+        "distance": "6.5"
+    },
+    {
+        "name": "Jeff Lee Kitchen",
+        "pax": "TBD",
+        "location": "Kampung Baru",
+        "distance": "9.0"
+    },
+    {
+        "name": "Super Saigon",
+        "pax": "TBD",
+        "location": "TTDI",
+        "distance": "10.2"
+    },
+    {
+        "name": "Big Singh Chapati",
+        "pax": "4-8",
+        "location": "TTDI",
+        "distance": "10.1"
+    },
+    {
+        "name": "Common Space Mini Food Hall",
+        "pax": "2-6",
+        "location": "Kiara Bay",
+        "distance": "7.5"
+    },
+    {
+        "name": "Big Leaf BLR",
+        "pax": "TBD",
+        "location": "Seksyen 17",
+        "distance": "0.6"
+    },
+    {
+        "name": "Kanbe Ramen @ 163 Retail Park",
+        "pax": "2-4",
+        "location": "Mont Kiara",
+        "distance": "11.1"
+    },
+    {
+        "name": "Tonkatsu by Ma Maison @ 163 Retail Park",
+        "pax": "2-12",
+        "location": "Mont Kiara",
+        "distance": "11.1"
+    },
+    {
+        "name": "Uncle Chua's Prawn Noodle",
+        "pax": "TBD",
+        "location": "Bandar Menjalara",
+        "distance": "2.0"
     }
 ]
