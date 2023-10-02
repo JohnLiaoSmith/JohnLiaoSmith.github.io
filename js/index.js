@@ -60,7 +60,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 // append table row to table body
                 tableBody.appendChild(tableRow);
+
+                document.getElementById("random-button").addEventListener("click", showDialog);
             }
         })
         .catch((e) => console.error(e));
 });
+
+function showDialog() {
+
+}
