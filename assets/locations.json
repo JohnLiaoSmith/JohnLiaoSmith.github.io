@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Burger King",
+        "pax": "4",
+        "distance": "0.5"
+    },
+    {
+        "name": "KFC",
+        "pax": "4",
+        "distance": "0.4"
+    }
+]
