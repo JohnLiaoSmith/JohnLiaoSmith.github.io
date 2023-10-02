@@ -1,12 +1,14 @@
 [
     {
-        "name": "Burger King",
+        "name": "Restoran Tanjung Satu",
         "pax": "4",
-        "distance": "0.5"
+        "distance": "0.7",
+        "location": "Bandar Menjalara"
     },
     {
-        "name": "KFC",
+        "name": "Bann Koffi",
         "pax": "4",
-        "distance": "0.4"
+        "distance": "0.75",
+        "location": "Bandar Menjalara"
     }
 ]
