@@ -3,10 +3,10 @@ fetch('assets/locations.json')
     .then((res) => res.text())
     .then((text) => {
         locationsObject = JSON.parse(text);
+        console.log(locationsObject);
     })
     .catch((e) => console.error(e));
 
-console.log(locationsObject);
 
 document.addEventListener("DOMContentLoaded", function () {
 
