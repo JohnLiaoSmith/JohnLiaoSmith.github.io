@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", function () {
         .then((res) => res.text())
         .then((text) => {
             let locationArray = JSON.parse(text);
-            console.log(locationArray);
 
             locationArray.sort((a, b) => {
                 let x = a["distance"];
@@ -60,8 +59,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 // append table row to table body
                 tableBody.appendChild(tableRow);
+            }
 
-                const randomModal = document.getElementById('randomModal')
+            const randomModal = document.getElementById('randomModal')
                 if (randomModal) {
                     randomModal.addEventListener('show.bs.modal', event => {
                         // If necessary, you could initiate an Ajax request here
@@ -90,11 +90,10 @@ document.addEventListener("DOMContentLoaded", function () {
                         modalBodyInput.innerHTML = `<ul class="list-group">
                             <li class="list-group-item">Pax: ${randomLocation["pax"]}</li>
                             <li class="list-group-item">Location: ${randomLocation["location"]}</li>
-                            <li class="list-group-item">distance: ${randomLocation["distance"]}</li>
+                            <li class="list-group-item">Distance (Drive/Walk) (km): ${randomLocation["distance"]}</li>
                         </ul>`;
                     })
                 }
-            }
         })
         .catch((e) => console.error(e));
 });
