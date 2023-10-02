@@ -8,7 +8,17 @@ document.addEventListener("DOMContentLoaded", function () {
             console.log(locationArray);
 
             locationArray.sort((a, b) => {
-                var x = a["distance"]; var y = b["distance"];
+                let x = a["distance"];
+                let y = b["distance"];
+                if (x.split("/")[0] !== undefined) {
+                    x = x.split("/")[0];
+                }
+                if (y.split("/")[0] !== undefined) {
+                    y = y.split("/")[0];
+                }
+                // Convert to Number type for correct comparison
+                x = Number(x);
+                y = Number(y);
                 return ((x < y) ? -1 : ((x > y) ? 1 : 0));
             });
 

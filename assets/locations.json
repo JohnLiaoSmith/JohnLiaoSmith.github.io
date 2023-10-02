@@ -20,8 +20,8 @@
     {
         "name": "Kaw Kaw Pak Kopi",
         "pax": "TBD",
-        "location": "SS2",
-        "distance": "12.3"
+        "location": "Bandar Menjalara",
+        "distance": "1.1/0.5"
     },
     {
         "name": "Restoran Penang Corner",
@@ -87,7 +87,7 @@
         "name": "Kopi Street",
         "pax": "2-8",
         "location": "Bandar Menjalara",
-        "distance": "0.19 (Walk)"
+        "distance": "0.75/0.19"
     },
     {
         "name": "Restoran Eden Dim Sum City",
@@ -105,7 +105,7 @@
         "name": "Ah Muk Cha Chaan Teng",
         "pax": "4-8",
         "location": "Bandar Menjalara",
-        "distance": "1.1 / 0.5 (Walk)"
+        "distance": "1.1/0.5"
     },
     {
         "name": "Ikar Fish Head Noodle",
@@ -177,7 +177,7 @@
         "name": "Big Leaf BLR",
         "pax": "TBD",
         "location": "Seksyen 17",
-        "distance": "0.6"
+        "distance": "14.4"
     },
     {
         "name": "Kanbe Ramen @ 163 Retail Park",
