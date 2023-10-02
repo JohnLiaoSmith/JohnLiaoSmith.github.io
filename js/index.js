@@ -61,12 +61,46 @@ document.addEventListener("DOMContentLoaded", function () {
                 // append table row to table body
                 tableBody.appendChild(tableRow);
 
-                document.getElementById("random-button").addEventListener("click", showDialog);
+                const randomModal = document.getElementById('randomModal')
+                if (randomModal) {
+                    randomModal.addEventListener('show.bs.modal', event => {
+                        // If necessary, you could initiate an Ajax request here
+                        // and then do the updating in a callback.
+
+                        // Update the modal's content.
+                        const modalTitle = randomModal.querySelector('.modal-title');
+                        const modalBodyInput = randomModal.querySelector('.modal-body');
+
+                        let nearbylocationArray = locationArray.filter((location) => {
+                            let distance = location["distance"];
+                            if (distance.split("/")[0] !== undefined) {
+                                distance = distance.split("/")[0];
+                            }
+                            // Convert to Number type for correct comparison
+                            distance = Number(distance);
+                            return distance < 4;
+                        });
+
+                        console.log(nearbylocationArray);
+
+                        let randomIndex = getRandomInt(0, nearbylocationArray.length - 1);
+                        let randomLocation = nearbylocationArray[randomIndex];
+
+                        modalTitle.textContent = randomLocation["name"];
+                        modalBodyInput.innerHTML = `<ul class="list-group">
+                            <li class="list-group-item">Pax: ${randomLocation["pax"]}</li>
+                            <li class="list-group-item">Location: ${randomLocation["location"]}</li>
+                            <li class="list-group-item">distance: ${randomLocation["distance"]}</li>
+                        </ul>`;
+                    })
+                }
             }
         })
         .catch((e) => console.error(e));
 });
 
-function showDialog() {
-
+function getRandomInt(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min) + min); // The maximum is exclusive and the minimum is inclusive
 }

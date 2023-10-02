@@ -9,14 +9,13 @@
 
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-icons.css">
     <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
 </head>
 
 <body>
-    <table border="1">
-        <thead>
+    <table class="table table-bordered table-sm">
+        <thead class="table-dark">
             <tr>
                 <th>Name</th>
                 <th>Pax</th>
@@ -28,9 +27,23 @@
     </table>
 
     <div class="floating-button-div">
-        <button id="random-button" class="btn pmd-btn-fab pmd-ripple-effect btn-primary" type="button">Random</button>
+        <button class="btn pmd-btn-fab pmd-ripple-effect btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#randomModal">Random</button>
     </div>
 
+    <div id="randomModal" class="modal" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title"></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body"></div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Ok</button>
+            </div>
+          </div>
+        </div>
+      </div>
 </body>
 
 </html>
