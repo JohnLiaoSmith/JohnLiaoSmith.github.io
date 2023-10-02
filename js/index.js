@@ -7,7 +7,11 @@ document.addEventListener("DOMContentLoaded", function () {
         let locationArray = JSON.parse(text);
         console.log(locationArray);
 
-
+        locationArray.sort((a, b) => {
+            var x = a["distance"]; var y = b["distance"];
+            return ((x < y) ? -1 : ((x > y) ? 1 : 0));
+        });
+        
         for (let i = 0; i < locationArray.length; i++) {
             // create a table row element
             let tableRow = document.createElement('tr');
@@ -49,6 +53,4 @@ document.addEventListener("DOMContentLoaded", function () {
           }
     })
     .catch((e) => console.error(e));
-
-    document.getElementById('ok').textContent = 'hello world';
 });

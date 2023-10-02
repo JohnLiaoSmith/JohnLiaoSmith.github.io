@@ -1,5 +1,11 @@
 [
     {
+        "name": "Nasi Ayam Kok Hing",
+        "pax": "4-8",
+        "distance": "1.6",
+        "location": "Taman Bukit Maluri"
+    },
+    {
         "name": "Restoran Tanjung Satu",
         "pax": "4",
         "distance": "0.7",
@@ -7,7 +13,7 @@
     },
     {
         "name": "Bann Koffi",
-        "pax": "4",
+        "pax": "4-12",
         "distance": "0.75",
         "location": "Bandar Menjalara"
     }
