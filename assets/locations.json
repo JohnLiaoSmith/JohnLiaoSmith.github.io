@@ -196,5 +196,11 @@
         "pax": "TBD",
         "location": "Bandar Menjalara",
         "distance": "2.0"
+    },
+    {
+        "name": "Sushi Mentai",
+        "pax": "4/8",
+        "location": "Bandar Menjalara",
+        "distance": "1.4"
     }
 ]
